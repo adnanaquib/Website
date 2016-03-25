@@ -1,12 +1,3 @@
-@media only screen and (max-width:768px){
-
-    .heads{
-        font-size: 8em;
-
-    }
-
-
-}
 
 @font-face{
     font-family: Simplifica;
@@ -148,4 +139,32 @@ h2{
     position:relative;
     top: -37;
     right: 2;
+}
+
+
+@media only screen and (max-width:768px){
+
+    .heads{
+        font-size: 4.5em;
+
+    }
+
+    #actualquote{
+
+        font-size: 1em;
+    }
+
+    #authorquote{
+        font-size: 0.5em;
+    }
+
+    #quote{
+        font-size: 1.2em;
+    }
+
+    #refresh{
+        top: -1px;
+    }
+
+
 }
