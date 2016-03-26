@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: Simplifica;
-    src: url('../SIMPLIFICA .ttf');
+    src: url('../SIMPLIFICA.ttf');
 
     font-family: Precious;
     src: url('../Precious.ttf')
@@ -145,7 +145,7 @@ h2{
 @media only screen and (max-width:768px){
 
     .heads{
-        font-size: 4.5em;
+        font-size: 4.25em;
 
     }
 
