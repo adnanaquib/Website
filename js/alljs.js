@@ -17,6 +17,9 @@ $(document).ready(function(){
     });
 
 
+    new Vivus('svg-obj', {type: 'scenario-sync', duration: 20, start: 'autostart', forceRender: false, dashGap: 20}, function(){
+        console.log('working?')
+    })
 
 
 
