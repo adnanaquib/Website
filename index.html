@@ -1,67 +1,57 @@
+<!DOCTYPE html>
+
+
 <html>
-    <head>
-        <title>Adnan Aquib's Website</title>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link href="_css/style.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <header align="center" role="banner" class="heads">
-            ADNAN'S WORLD
-        </header>
 
-        <nav>
-            <ul>
+<head>
+    <title>Adnan's Website</title>
+    <link href="_css/style.css" rel="stylesheet" type="text/css">
+    <link href="_css/hexagons.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" 0></script>
+    <script src="js/jquery.svg.es5.min.js"></script>
+    <script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
+    <script src="js/alljs.js"></script>
+</head>
+
+<body>
+    <!-- content to be placed inside <body>…</body> -->
+
+
+
+    <div class="img-hex-svg">
+        <div id="svg-img">
+            <object id="svg-obj" type="image/svg+xml" data="images/adnandotcom.svg" align="center"></object>
+        </div>
+
+        <div class="hexes">
+            <ul id="hexGrid">
+                <li class="hex">
+                    <a class="hexIn" href="#">
+                         <object id="svg-wifi" type="image/svg+xml" data="images/wifi.svg" align="center"></object>
+                        <h1>This is a title</h1>
+                        <p>Some sample text about the article this hexagon leads to</p>
+                    </a>
+                </li>
+                <li class="hex">
+                    <a class="hexIn" id="stock-hex" href="#">
+                        <object id="svg-stocks" type="image/svg+xml" data="images/stock.svg" align="center"></object>
+                        <h1>This is a title</h1>
+                        <p>Some sample text about the article this hexagon leads to</p>
+                    </a>
+                </li>
+
+                <li class="hex">s
+                    <a class="hexIn" href="#">
+                        <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
+                        <h1>This is a title</h1>
+                        <p>Some sample text about the article this hexagon leads to</p>
+                    </a>
+                </li>
+
             </ul>
-        </nav>
-
-
-        <div id="quoter">
-            <h1 id="quote">
-            Quote of the Session
-            </h1>
-
-            <div id="mainquote">
-                <button id="refresh" class="glyphicon glyphicon-repeat" style="float: right;" ></button>
-                <div id="actualquote">
-
-                </div>
-
-                <div id="authorquote">
-
-                </div>
-            </div>
         </div>
+    </div>
 
-
-        <h2 id="Stocks" class="accoridans">Adnan's Stocks</h2>
-        <div>
-            <section id="stocksdesc" class="desc">
-            Adnan's Section on Stock isn't available yet.
-            </section>
-        </div>
-
-        <h2 id="wifi" class="accoridans">
-            WiFi
-        </h2>
-
-        <div>
-                <section  id="wifidesc" class="desc">
-                    <p>Access to Internet can be had using: </p>
-                    <p id="pass">4@2h7?7s7%3m</p>
-
-
-                </section>
-
-        </div>
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="js/alljs.js"></script>
-
-
-
-    </body>
+</body>
 
 </html>
