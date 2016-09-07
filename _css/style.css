@@ -28,50 +28,16 @@ body h1 {
     display: block;
 }
 
-#stock-hex{
-    background-color: darkgreen
-}
-
-#svg-stocks{
-    height:100%;
-    width: 100%;
-    display: block;
-
-    margin-left: -1%;
-    margin-top: -30%;
-}
-
-#svg-wifi {
-    margin-top: -16%;
-    margin-left: -25%;
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-
-#selection-wifi{
-    fill-opacity: 0;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-name: FillIn;
-    animation-duration: 6s;
-    animation-delay: 2s;
-    fill: #183152;
-
-
-}
-
 
 #Selection1 {
+    background-color: cornsilk;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     fill-opacity: 0;
     animation-name: FillIn;
-    animation-duration: 10s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 0s;
     fill: floralwhite;
 }
 
@@ -81,8 +47,8 @@ body h1 {
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-name: FillIn;
-    animation-duration: 10s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 0s;
     fill: floralwhite;
 }
 
@@ -92,8 +58,8 @@ body h1 {
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-name: FillIn;
-    animation-duration: 10s;
-    animation-delay: 3sss;
+    animation-duration: 0s;
+    animation-delay: 0s;
     fill: black;
 }
 

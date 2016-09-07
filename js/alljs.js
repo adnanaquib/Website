@@ -22,62 +22,6 @@ $(document).ready(function(){
 
 
 
-    //Vivus stuff
-
-
-     // SVG AdnanAquib.com
-    new Vivus('svg-obj', {
-            type: 'async'
-            , duration: 420
-        }
-        , function doDone(obj) {
-
-            // Links CSS WIth SVG object internally
-            $("#svg-obj").setSVGStyleLink('../css/text.css');
-
-            var svg = $("#svg-obj").getSVG();
-            //svg.find("#Selection1").attr('fill', 'red');
-        }
-    );
-
-
-    // SVG WiFi icon
-
-    new Vivus('svg-wifi', {
-            type: 'async'
-            , duration: 420
-        }
-        , function doDone(obj) {
-
-            // Links CSS WIth SVG object internally
-            $("#svg-obj").setSVGStyleLink('../css/text.css');
-
-            var svg = $("#svg-obj").getSVG();
-            //svg.find("#Selection1").attr('fill', 'red');
-        }
-    );
-
-
-
-    // SVG Stocks
-
-    new Vivus('svg-stocks', {
-            type: 'delayed'
-            , duration: 420
-        }
-        , function doDone(obj) {
-
-            // Links CSS WIth SVG object internally
-            $("#svg-obj").setSVGStyleLink('../css/text.css');
-
-            var svg = $("#svg-obj").getSVG();
-            //svg.find("#Selection1").attr('fill', 'red');
-        }
-    );
-    console.log("working??");
-});
-
-
 $("#refresh").click(function(event){
     $("#actualquote").empty();
     $("#authorquote").empty();
