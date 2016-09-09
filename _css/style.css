@@ -6,18 +6,6 @@ body {
     background: transparent;
 }
 
-.hexes {
-    margin-top: -15%;
-    display: block;
-    margin-left: 25%;
-    align-content: center;
-}
-
-.hexIn{
-    background-color: floralwhite;
-}
-
-.
 body h1 {
     text-align: center;
 }
@@ -32,7 +20,6 @@ body h1 {
 #Selection1 {
     fill: floralwhite;
 }
-
 #Selection {
     fill: floralwhite;
 }
@@ -47,6 +34,18 @@ body h1 {
     animation-delay: 1s;
     fill: black;
 }
+
+.navbar{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbarcustom{
+
+}
+
+
 
 @keyframes draw {
     to {

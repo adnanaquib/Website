@@ -3,11 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1800" preserveAspectRatio="xMinYMin">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1800" preserveAspectRatio="xMinYMin" id = 'test'>
 
 
 
-                <path id="Selection" fill="none" stroke="black" stroke-width="1" d="M 1788.00,573.63
+                <path id="Selection" fill="none" stroke="black" stroke-width="4" d="M 1788.00,573.63
            C 1825.90,578.39 1856.94,611.36 1857.00,650.00
              1857.00,650.00 1857.00,854.00 1857.00,854.00
              1856.96,877.65 1844.62,900.16 1826.00,914.35
@@ -222,7 +222,7 @@
            "/>
 
 
-			 <path id="Selection1" fill="none" stroke="black" stroke-width="1"
+			 <path id="Selection1" fill="none" stroke="black" stroke-width="4"
 			 d="
 			 M 2103.00,575.00
            C 2112.73,575.18 2114.98,580.27 2115.00,589.00
