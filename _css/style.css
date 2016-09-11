@@ -1,3 +1,21 @@
+@font-face{
+    font-family: 'Precious';
+    src: url("../Precious.ttf");
+}
+
+@media only screen and (min-width : 768px) {
+     #actualquote{
+         position: relative;
+         bottom: 200px;
+
+        font-family: Precious;
+        font-size: 3.5vw;
+
+     }
+
+
+    }
+
 html {
     background-image: url(../images/backgrounds33.jpg);
 }
@@ -14,6 +32,8 @@ body h1 {
     height:100%;
     width: 100%;
     display: block;
+    align-content: center;
+    margin-left: 3%;
 }
 
 
@@ -41,10 +61,13 @@ body h1 {
     border-color: transparent;
 }
 
-.navbarcustom{
+#actualquote{
+    font-family: Precious;
+    font-size: 3.5vw;
+    position: relative;
+    bottom: 200px;
 
 }
-
 
 
 @keyframes draw {
