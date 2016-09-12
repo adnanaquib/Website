@@ -18,10 +18,34 @@ new Vivus('svg-obj', {
     console.log('works?')
 });
 // Refresh button for the quote, get from AJAX code below and Mashape Key
-$("#refresh").click(function (event) {
+$("#father").click(function (event) {
     $("#actualquote").empty();
     $("#authorquote").empty();
+    callQuoteAjax();
 });
+
+
+callQuoteAjax();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function callQuoteAjax(){
 // AJAX
 $.ajax({
     url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous', // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
@@ -35,7 +59,7 @@ $.ajax({
         console.log(data);
         //document.getElementById("output").innerHTML = data.source;
         $("#actualquote").append("<p> " + data.quote + "</p>");
-        $("#authorquote").append("<p>Source: " + data.author + "</p>");
+        $("#authorquote").append("<p> - " + data.author + "</p>");
     }
     , error: function (err) {
         alert(err);
@@ -44,3 +68,4 @@ $.ajax({
         xhr.setRequestHeader("X-Mashape-Authorization", "M98INuayXFmshBtyY0Pa91SVnhLcp1wAjEljsnW8bgfpOsQ5sB"); // Enter here your Mashape key
     }
 });
+}
