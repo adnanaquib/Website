@@ -24,10 +24,9 @@ $("#father").click(function (event) {
     callQuoteAjax();
 });
 
-
 callQuoteAjax();
 
-
+$("#WiFi").colorbox({iframe:true, width:"25%", height:"20%", scrolling:false, closeButton :false });
 
 
 
